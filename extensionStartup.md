@@ -34,7 +34,7 @@ $ sudo npm install -g yo generator-code
     1. Navigate to the directory you want the extension to be in
     2. Run Yeoman by using the yo code command in your terminal
     3. Select JavaScript as the language of choice
-    4. Set the name to ''
+    4. Set the name to 'Student Notebook Tracer'
     5. Set the identifier to something that will be easy to call
     6. Leave the description blank
     7. Don't set up JavaScript type checking
