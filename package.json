@@ -9,13 +9,20 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "extensionDependencies": ["ms-toolsai.jupyter"],
+  "activationEvents": [
+    "onWebviewPanel:*.jupyter.notebook.ipynb"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
       "command": "student-notebook-tracer.helloWorld",
       "title": "Hello World"
-    }]
+    },
+  {
+    "command": "student-notebook-tracer.execCount",
+    "title": "Trace Execution Count" 
+  }]
   },
   "scripts": {
     "lint": "eslint .",
